@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PageTurner || Online BookStore </title>
+
+</head>
+<body>
+    <header class="site-header">
+        <a href="pageturner.html" class="brand" aria-label="PageTurner Home">
+            <span class="Brand mark">P</span>
+            <span>page Turner</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+            <a href="pageturner.html" class="active"></a>
+            <a href="#books">Books</a>
+            <a href="#about">About</a>
+        </nav>
+        <a href="class.html" class="cart-link" aria-label="Shopping cart">
+            cart <span id="cart-count" class="cart-count">0</span>
+        </a>
+
+
+    </header>
+    <main>
+        <section class=" hero">
+            <div class ="hero-content">
+                <p class="eyebrow"> YOUR NEXT CHAPTER STARTS HERE</p>
+                <h1>Find a Book. <br><span>Find a New World.</span></h1>
+                <p class="hero-copy">
+                    Explore Stories, Discovers New ideas, And Find Your Next Favourite Read.
+                </p>
+                <a href="#books" class="primary-button">Browse Books <span aria-hidden="true"></span></a>
+            </div>
+            <div class="hero-art"aria-label="books illustratiobn" role="img">
+                <div class="sun"></div>
+                <div class="book-stack book one"><span>THE ART OF <BR> THINKING </BR></span></div>
+                <div class="book-stack book two"><span>SMALL <br>WONDERS</span></div>
+                <div class="book-stack book-three"><span>BEYOND<br>THE PAGE</span></div>
+                <div class="plant"><i></i><i></i><i></i><b></b></div>
+            </div>
+        </section>
+        <section class="catalog-section" id="books">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">THE BOOKSHELF</p>
+                    <h2>Books worth your time</h2>
+                    <p class="section-copy">A hand-picked collection to get you started.</p>
+                </div>
+                <label class="search-copy">
+                    <span class=" search-icon" aria-hidden="true">⌕</span>
+                    <input id="book-search" type="search" placeholder="search by title or author..." aria-label="search books">
+                </label>
+            </div>
+            <div id="book-grid" class="book-grid" aria-live="polite"></div>
+            <p id="empty-message" class="empty-message" hidden>No books match your search. Try another title or author.</p>
+        </section>
+
+        <section class="about-section"id="about">
+            <div class="about-icon" aria-hidden="true">✦</div>
+            <div>
+                <p class="eyebrow">A LITTLE ABOUT US</p>
+                <h2>Good books make room for new ideas.</h2>
+                <p>PageTurner is a sample online bookstore project built to make browsing books simple and enjoyable. This catalogue currently uses sample data.</p>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <a class="bramd footer-brand"href="pageturner.html"><span class="brand-mark">P</span><span>PageTurner</span></a>
+        <p>Read More..Discover More..</p>
+        <p>© <span id="year"></span>PageTurner .Project</p>
+    </footer>
+
+
+    
+</body>
+</html>
